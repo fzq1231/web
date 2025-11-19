@@ -45,5 +45,5 @@ jobs:
           tags: ghcr.io/${{ github.repository }}:latest 
           build-args: |
             CAMOUFOX_URL=${{ env.CAMOUFOX_URL }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          #cache-from: type=gha
+          #cache-to: type=gha,mode=max
